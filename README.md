@@ -12,6 +12,8 @@ A Test Kitchen Driver and Transport for Docker.
 ## Requirements
 
 * [Docker][docker_installation] **(>= 1.5)**
+- if you are using docker images, you need to login to docker with a valid dockerhub account on your shell before executing a `kitchen create` command, and or provide the crednetials to the image as described [here](https://kitchen.ci/docs/drivers/dokken/#creds_file). 
+
 
 ## Installation and Setup
 
